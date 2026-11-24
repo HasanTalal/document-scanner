@@ -1,0 +1,5 @@
+# Direct dependencies; these are not a verified version lock.
+opencv-python
+numpy
+scikit-image
+imutils==0.5.4
