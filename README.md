@@ -33,6 +33,7 @@ python scan.py "C:\Users\hassa\Pictures\document.jpg" --mode color
 python scan.py "images\document.jpg" --no-preview
 python scan.py --help
 ```
+scan "hotel receipt.jpg" --mode color
 
 A filename alone is looked up in `Path.home() / "Downloads"`. A relative path containing a directory is resolved from your current terminal folder. A full path is used directly. If Downloads has been relocated, use its full path.
 
